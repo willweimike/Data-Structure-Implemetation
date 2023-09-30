@@ -1,12 +1,12 @@
-public class DinamicArr {
+public class DynamicArr {
     int size;
     int capacity = 10;
     Object[] array;
 
-    public DinamicArr() {
+    public DynamicArr() {
         this.array = new Object[capacity];
     }
-    public DinamicArr(int capacity) {
+    public DynamicArr(int capacity) {
         this.capacity = capacity;
         this.array = new Object[capacity];
     }
