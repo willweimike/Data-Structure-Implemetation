@@ -1,4 +1,3 @@
-
 public class Algo {
     public static void main(String[] args) {
         int[] array = {3, 2, 10, 5, 1};
@@ -167,6 +166,7 @@ public class Algo {
         }
     }
 
+    
     public static void quickSort(int[] array, int start, int end) {
         if (end <= start) return;
 
